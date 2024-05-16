@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing Page Task</title>
+	<style>
+		*{
+			margin: 0px;
+			/* padding: 0px; */
+		}
+		div{
+			padding: 24px;
+			border: 1px solid black;
+			border-radius: 24px;
+			margin: 20px;
+		}
+		ul{
+			margin: 24px 0px;
+			font-size: 24px;
+		}
+		#color-palate{
+			display: grid;
+			grid-template-columns: repeat(5,1fr);
+		}
+		.color-block{
+			position: relative;
+			height: 20px;
+			width: 20px;
+			background-color: var(--color);
+		}
+		.color-block::after{
+			content: attr(color);
+			position: absolute;
+			bottom: -20px;
+			left: 5px;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<h1>Task:- Landing Page (20 pts)</h1>
+		<ul>
+			<li>create this landing page</li>
+			<li>change the logo with our programing club's logo ( *in asset folder logo.png )</li>
+			<li>change:-  "Bob Meijer" with "Programing Club"</li>
+			<li>change netherlands's flag with India's flag also name</li>
+			<li> In about me section and Google ads serveice sect third card is example of hover effect</li>
+		</ul>
+	</div>
+	<div id="color-palate">
+
+			<div class="color-block" color="#2F3349;" style="--color : #2F3349;"></div>
+			<div class="color-block" color="#54595F;" style="--color : #54595F;"></div>
+			<div class="color-block" color="#2F3349;" style="--color : #2F3349;"></div>
+			<div class="color-block" color="#2F3349;" style="--color : #2F3349;"></div>
+			<div class="color-block" color="#E0F1F1;" style="--color : #E0F1F1;"></div>
+			<div class="color-block" color="#E6EBE4;" style="--color : #E6EBE4;"></div>
+			<div class="color-block" color="#FEF3DF;" style="--color : #FEF3DF;"></div>
+			<div class="color-block" color="#D7C49E;" style="--color : #D7C49E;"></div>
+			<div class="color-block" color="#BBCF9B;" style="--color : #BBCF9B;"></div>
+			<div class="color-block" color="#A5BABB;" style="--color : #A5BABB;"></div>
+			<div class="color-block" color="#171931;" style="--color : #171931;"></div>
+			<div class="color-block" color="#FFFFFF;" style="--color : #FFFFFF;"></div>
+			<div class="color-block" color="#F5F5F5;" style="--color : #F5F5F5;"></div>
+	</div>
+	<div>
+		<a href="./assets.zip" download>Download asset</a>
+	</div>
+	<hr>
+	<img src="./assets/screen-shots/1.png" alt="" class="img" width="100%">
+	<img src="./assets/screen-shots/2.png" alt="" class="img" width="100%">
+	<img src="./assets/screen-shots/3.png" alt="" class="img" width="100%">
+	<img src="./assets/screen-shots/4.png" alt="" class="img" width="100%">
+	<img src="./assets/screen-shots/5.png" alt="" class="img" width="100%">
+	<img src="./assets/screen-shots/6.png" alt="" class="img" width="100%">
+	<img src="./assets/screen-shots/7.png" alt="" class="img" width="100%">
+	<img src="./assets/screen-shots/8.png" alt="" class="img" width="100%">
+	<img src="./assets/screen-shots/9.png" alt="" class="img" width="100%">
+	<img src="./assets/screen-shots/10.png" alt="" class="img" width="100%">
+</body>
+</html>
